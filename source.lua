@@ -340,18 +340,18 @@ do
 		local files = {
 			["assets"] = {
 				["api.lua"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/api.lua"),
-				["sparkle.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_sparkle.ogg"),
-				["skeet.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_skeet.ogg"),
+				["sparkle.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/sparkle.ogg"),
+				["skeet.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/skeet.ogg"),
 				["neverlose.ogg"] = safeHttp(
-					"https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_neverlose.ogg"
+					"https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/neverlose.ogg"
 				),
-				["break.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_break.ogg"),
-				["mc bow.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_mc%20bow.ogg"),
+				["break.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/break.ogg"),
+				["mc bow.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/mc%20bow.ogg"),
 				["primordial.ogg"] = safeHttp(
-					"https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_primordial.ogg"
+					"https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/primordial.ogg"
 				),
-				["rust.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_rust.ogg"),
-				["sexy.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_sexy.ogg"),
+				["rust.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/rust.ogg"),
+				["sexy.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/sexy.ogg"),
 				["jaydes.png"] = safeHttp("https://raw.githubusercontent.com/k0nkx/juju-lib/refs/heads/main/assets/jaydes.png"),
 				["1.png"] = safeHttp("https://raw.githubusercontent.com/k0nkx/juju-lib/refs/heads/main/assets/1.png"),
 				["2.png"] = safeHttp("https://raw.githubusercontent.com/k0nkx/juju-lib/refs/heads/main/assets/2.png"),
@@ -374,8 +374,8 @@ do
 					"pinksky.rbxm",
 					"https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/custom/pinksky.rbxm"
 				),
-				["crunch.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_juju.ogg"),
-				["scar.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_scar.ogg"),
+				["crunch.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/juju.ogg"),
+				["scar.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/scar.ogg"),
 				["x hit.rbxm"] = debugRBXM(
 					"custom",
 					"x hit.rbxm",
