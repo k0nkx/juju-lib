@@ -339,57 +339,57 @@ do
 
 		local files = {
 			["assets"] = {
-				["api.lua"] = safeHttp("https://raw.githubusercontent.com/panduh16/juju/main/assets/api.lua"),
-				["sparkle.ogg"] = safeHttp("https://raw.githubusercontent.com/panduh16/juju/main/assets/sparkle.ogg"),
-				["skeet.ogg"] = safeHttp("https://raw.githubusercontent.com/panduh16/juju/main/assets/skeet.ogg"),
+				["api.lua"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/api.lua"),
+				["sparkle.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_sparkle.ogg"),
+				["skeet.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_skeet.ogg"),
 				["neverlose.ogg"] = safeHttp(
-					"https://raw.githubusercontent.com/panduh16/juju/main/assets/neverlose.ogg"
+					"https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_neverlose.ogg"
 				),
-				["break.ogg"] = safeHttp("https://raw.githubusercontent.com/panduh16/juju/main/assets/break.ogg"),
-				["mc bow.ogg"] = safeHttp("https://raw.githubusercontent.com/panduh16/juju/main/assets/mc%20bow.ogg"),
+				["break.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_break.ogg"),
+				["mc bow.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_mc%20bow.ogg"),
 				["primordial.ogg"] = safeHttp(
-					"https://raw.githubusercontent.com/panduh16/juju/main/assets/primordial.ogg"
+					"https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_primordial.ogg"
 				),
-				["rust.ogg"] = safeHttp("https://raw.githubusercontent.com/panduh16/juju/main/assets/rust.ogg"),
-				["sexy.ogg"] = safeHttp("https://raw.githubusercontent.com/panduh16/juju/main/assets/sexy.ogg"),
-				["jaydes.png"] = safeHttp("https://raw.githubusercontent.com/panduh16/juju/main/assets/jaydes.png"),
-				["1.png"] = safeHttp("https://raw.githubusercontent.com/panduh16/juju/main/assets/1.png"),
-				["2.png"] = safeHttp("https://raw.githubusercontent.com/panduh16/juju/main/assets/2.png"),
-				["logo.png"] = safeHttp("https://raw.githubusercontent.com/panduh16/juju/main/assets/logo.png"),
+				["rust.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_rust.ogg"),
+				["sexy.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_sexy.ogg"),
+				["jaydes.png"] = safeHttp("https://raw.githubusercontent.com/k0nkx/juju-lib/refs/heads/main/assets/jaydes.png"),
+				["1.png"] = safeHttp("https://raw.githubusercontent.com/k0nkx/juju-lib/refs/heads/main/assets/1.png"),
+				["2.png"] = safeHttp("https://raw.githubusercontent.com/k0nkx/juju-lib/refs/heads/main/assets/2.png"),
+				["logo.png"] = safeHttp("https://raw.githubusercontent.com/k0nkx/juju-lib/refs/heads/main/assets/logo.png"),
 				["saturation.png"] = safeHttp(
-					"https://raw.githubusercontent.com/panduh16/juju/main/assets/saturation.png"
+					"https://raw.githubusercontent.com/k0nkx/juju-lib/refs/heads/main/assets/saturation.png"
 				),
 			},
 			["custom"] = {
 				["textures.json"] = safeHttp(
-					"https://raw.githubusercontent.com/panduh16/juju/main/assets/textures.json"
+					"https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/textures.json"
 				),
 				["character.rbxm"] = debugRBXM(
 					"custom",
 					"character.rbxm",
-					"https://raw.githubusercontent.com/panduh16/juju/main/assets/character.rbxm"
+					"https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/custom/character.rbxm"
 				),
 				["pinksky.rbxm"] = debugRBXM(
 					"custom",
 					"pinksky.rbxm",
-					"https://raw.githubusercontent.com/panduh16/juju/main/assets/pinksky.rbxm"
+					"https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/custom/pinksky.rbxm"
 				),
-				["crunch.ogg"] = safeHttp("https://raw.githubusercontent.com/panduh16/juju/main/assets/juju.ogg"),
-				["scar.ogg"] = safeHttp("https://raw.githubusercontent.com/panduh16/juju/main/assets/scar.ogg"),
+				["crunch.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_juju.ogg"),
+				["scar.ogg"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/assets_scar.ogg"),
 				["x hit.rbxm"] = debugRBXM(
 					"custom",
 					"x hit.rbxm",
-					"https://raw.githubusercontent.com/panduh16/juju/main/assets/x%20hit.rbxm"
+					"https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/custom/x%20hit.rbxm"
 				),
 				["blossom aura.rbxm"] = debugRBXM(
 					"custom",
 					"blossom aura.rbxm",
-					"https://raw.githubusercontent.com/panduh16/juju/main/assets/blossom%20aura.rbxm"
+					"https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/custom/blossom%20aura.rbxm"
 				),
-				["spam.json"] = safeHttp("https://raw.githubusercontent.com/panduh16/juju/main/assets/spam.json"),
+				["spam.json"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/spam.json"),
 			},
 			["themes"] = {
-				["default.th"] = safeHttp("https://raw.githubusercontent.com/panduh16/juju/main/assets/default.th"),
+				["default.th"] = safeHttp("https://github.com/k0nkx/juju-lib/raw/refs/heads/main/assets/default.th"),
 			},
 			["addons"] = {},
 			["configs"] = {},
