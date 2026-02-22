@@ -1,5 +1,5 @@
-getgenv().script_name = "panda"
-getgenv().script_version = "cool"
+getgenv().script_name = "juju"
+getgenv().script_version = "hak"
 
 local lib = loadstring(game:HttpGet(
                            "https://raw.githubusercontent.com/k0nkx/juju-lib/refs/heads/main/source.lua"))()
